@@ -8,8 +8,8 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/SyntaxHighlighter.css" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,25 +20,24 @@
 
 <body>
     <div class="continer">
-        <h1>Bootstrap tutorials</h1>
+        <h1><span class="label label-primary">Bootstrap Button Groups</span></h1>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <a href="glyphs.html"><button class="btn btn-default">Glyphicons</button></a>
-            </div>
-            <div class="col-md-3">
-                <a href="dropdown.html"><button class="btn btn-default">Dropdown</button></a>
-            </div>
-             <div class="col-md-3">
-                <a href="btn-group.html"><button class="btn btn-default">Button Group</button></a>
-            </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h4><span class="label label-default">Default Button Group</span></h4>
         </div>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.0.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script language="javascript" src="js/shCore.js"></script>
+    <script language="javascript" src="js/shBrushXml.js"></script>
+           
+                <script language="javascript">
+        dp.SyntaxHighlighter.ClipboardSwf = '/flash/clipboard.swf';
+        dp.SyntaxHighlighter.HighlightAll('code');
+                    </script>
 </body>
 
 </html>
