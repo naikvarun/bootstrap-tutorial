@@ -8,8 +8,8 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/SyntaxHighlighter.css" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -23,6 +23,13 @@
         <h1>Glyphicons in BootStrap</h1>
     </div>
     <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <pre name="code" class="html">
+&lt;span class="glyphicon glyphicon-adjust"&gt;&lt;/span&gt;
+                </pre>
+            </div>
+        </div>
         <div class="row">
             <p>
                 <div class="col-md-6">
@@ -2031,6 +2038,12 @@
     <script src="js/jquery-1.11.0.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script language="javascript" src="js/shCore.js"></script>
+    <script language="javascript" src="js/shBrushXml.js"></script>
+    <script language="javascript">
+dp.SyntaxHighlighter.ClipboardSwf = '/flash/clipboard.swf';
+dp.SyntaxHighlighter.HighlightAll('code');
+</script>
 </body>
 
 </html>

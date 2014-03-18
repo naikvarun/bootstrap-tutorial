@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/SyntaxHighlighter.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="continer">
+        <h1>Bootstrap Dropdowns</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <pre name="code" class="html">
+&lt;div class="dropdown"&gt;
+   &lt;button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+      data-toggle="dropdown"&gt;
+      Topics
+      &lt;span class="caret"&gt;&lt;/span&gt;
+   &lt;/button&gt;
+   &lt;ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1"&gt;
+      &lt;li role="presentation"&gt;
+         &lt;a role="menuitem" tabindex="-1" href="#"&gt;Java&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li role="presentation"&gt;
+         &lt;a role="menuitem" tabindex="-1" href="#"&gt;C#&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li role="presentation"&gt;
+         &lt;a role="menuitem" tabindex="-1" href="#"&gt;HTML&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li role="presentation" class="divider"&gt;&lt;/li&gt;
+      &lt;li role="presentation"&gt;
+         &lt;a role="menuitem" tabindex="-1" href="#"&gt;Javascript&lt;/a&gt;
+      &lt;/li&gt;
+   &lt;/ul&gt;
+&lt;/div&gt;
+</pre>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="dropdown">
+                <button type="button" class="btn btn-toogle" id="dropdownMenu1" data-toggle="dropdown">
+                    Topics <span class="caret" />
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Java</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">C#</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+                    <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+            </ul>
+            </div>
+            
+        </div>
+        
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script language="javascript" src="js/shCore.js"></script>
+    <script language="javascript" src="js/shBrushXml.js"></script>
+           
+                <script language="javascript">
+        dp.SyntaxHighlighter.ClipboardSwf = '/flash/clipboard.swf';
+        dp.SyntaxHighlighter.HighlightAll('code');
+                    </script>
+</body>
+
+</html>
